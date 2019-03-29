@@ -40,7 +40,8 @@ expectedGhcOnlyExtensions = ["RelaxedLayout",
                              "AlternativeLayoutRule",
                              "AlternativeLayoutRuleTransitional",
                              "EmptyDataDeriving",
-                             "GeneralisedNewtypeDeriving"]
+                             "GeneralisedNewtypeDeriving",
+                             "TopLevelKindSignatures"]
 
 expectedCabalOnlyExtensions :: [String]
 expectedCabalOnlyExtensions = ["Generics",

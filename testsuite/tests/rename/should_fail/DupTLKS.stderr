@@ -1,0 +1,6 @@
+
+DupTLKS.hs:9:1: error:
+    Duplicate top-level kind signatures for ‘D’:
+      type D :: Type -- written at DupTLKS.hs:9:1-9
+      type D :: Type -- written at DupTLKS.hs:10:1-9
+      type D :: Type -- written at DupTLKS.hs:11:1-9
